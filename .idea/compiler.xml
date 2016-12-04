@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="poi01_hello" />
+        <module name="POI_Util" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="poi01_hello" target="1.5" />
+      <module name="poi01_hello" target="1.8" />
+      <module name="POI_Util" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
